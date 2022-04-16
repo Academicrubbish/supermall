@@ -24,7 +24,7 @@
     },
     methods: {
         itemClick() {
-            this.$router.replace(this.path).catch(err=>err)
+            this.$router.replace(this.path)
         }
     }
   }

@@ -1,10 +1,14 @@
 <template>
-    <h2>购物车</h2>
+  <div></div>
 </template>
 
 <script>
+
 export default{
-    name: "Shopcart"
+    name: "Shopcart",
+    components: {
+      navBar
+    }
 }
 </script>
 

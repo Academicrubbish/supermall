@@ -25,12 +25,17 @@ const routes = [
   {
       path: '/shopcart',
       component:() => import('../views/shopcart/Shopcart')
+  },
+  {
+      path: '/detail/:iid',
+      component:() => import('../views/detail/Detail')
   }
 
 ]
 
 const router = new VueRouter({
   routes,
+  mode: 'history'
 })
 
 //3.导出
