@@ -5,11 +5,6 @@
         <img slot="item-active-icon" src="@/assets/img/tabbar/home-active.svg">
         <div slot="item-text">首页</div>
       </tab-bar-item>
-      <tab-bar-item path="/category">
-        <img slot="item-icon" src="@/assets/img/tabbar/category.svg">
-        <img slot="item-active-icon" src="@/assets/img/tabbar/category-active.svg">
-        <div slot="item-text">分类</div>
-      </tab-bar-item>
       <tab-bar-item path="/shopcart">
         <img slot="item-icon" src="@/assets/img/tabbar/shopcart.svg">
         <img slot="item-active-icon" src="@/assets/img/tabbar/shopcart-active.svg">

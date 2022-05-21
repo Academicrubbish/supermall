@@ -17,10 +17,6 @@ export default {
     MainTabBar
   }
 }
-
-for(let i in 3) {
-  console.log(i)
-}
 </script>
 
 <style>

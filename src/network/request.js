@@ -8,10 +8,16 @@ export function request(config) {
         timeout: 5000
     })
 
-    // //2.axios的拦截器
-    // //2.1请求拦截
+    //2.axios的拦截器
+    // //2.1请求拦截(用于检查我们发送过去的请求是否合法)
     // instance.interceptors.request.use(config => {
     //     return config//拦截之后要返回，main.js拿不到就会执行catch语句
+    //     //1.比如config中的一些信息不符合要求
+
+    //     //2.比如每次发送请求的的时候，在界面显示一个请求图标
+
+    //     //3.某些网络请求(比如登录(token))，必须要携带一些特殊信息
+
     // },err => {
     //     console.log(err)//请求发送失败打印
     // })

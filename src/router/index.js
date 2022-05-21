@@ -15,10 +15,6 @@ const routes = [
       component:() => import('../views/home/Home')
   },
   {
-      path: '/category',
-      component:() => import('../views/category/Category')
-  },
-  {
       path: '/profile',
       component:() => import('../views/profile/Profile')
   },
